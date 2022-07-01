@@ -12,8 +12,6 @@ def isValidSubsequence(array, sequence):
                     array.remove(number)
                     isPartOfSequence = True
         if isPartOfSequence == False:
-            print("Return False")
             return False
-    print("Return True") 
     return True
     pass
